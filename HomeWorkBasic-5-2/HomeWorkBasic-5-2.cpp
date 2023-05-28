@@ -127,8 +127,8 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     
-    Triangle triangleClass(10, 20, 30, 40, 50, 60);
-    getInfo(triangleClass);
+    Triangle triangleObj(10, 20, 30, 40, 50, 60);
+    getInfo(triangleObj);
 
     RightTriangle right(10, 20, 30, 50, 60);
     getInfo(right);
